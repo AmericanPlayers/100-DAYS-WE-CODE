@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: darkturquoise;
+}
+
+.tourner{
+    background-size: cover;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin{
+    100% { transform: rotate(360deg);}
+}
